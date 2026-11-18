@@ -179,3 +179,35 @@ html.mlock,html.mlock body{overflow:hidden!important}
 .dm-x{width:2rem;height:2rem;display:grid;place-items:center;padding:0;color:var(--dim);background:var(--panel);border:1px solid var(--line);border-radius:50%;cursor:pointer;transition:color .25s,border-color .25s}
 .dm-x svg{width:.9rem;height:.9rem;fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:round}
 .dm-x:hover,.dm-x:focus-visible{color:#fff;border-color:var(--acc);outline:none}
+html.ph .top{flex-direction:column;align-items:center;justify-content:flex-start;gap:.5rem;width:100%}
+html.ph .hl{width:min(26rem,100%);grid-template-columns:repeat(2,minmax(0,1fr));gap:.5rem}
+html.ph .hl .dl{grid-column:1/-1;min-height:2.6rem;font-size:.72rem;letter-spacing:.1em;padding:0 .9rem}
+html.ph .dl br{display:none}
+html.ph .upd{margin:.8rem 0 0}
+html.ph{--rh:2.75rem}
+html.ph .page{padding:1.6rem 1rem 2rem;gap:1.2rem}
+html.ph .tag{padding:.55rem .5rem}
+html.ph .tag b{font-size:1.2rem}
+html.ph .hl .dl{min-height:3rem;font-size:.78rem}
+html.ph .board{grid-template-columns:minmax(0,1fr)}
+html.ph .card,html.ph .card:nth-child(2),html.ph .card:nth-child(4),html.ph .card:nth-child(5){grid-column:auto!important;padding:.2rem .3rem .5rem}
+html.ph .card:nth-child(4){order:2}
+html.ph .card:nth-child(5){order:3}
+html.ph .card:nth-child(2){order:4}
+html.ph .card:nth-child(3){order:5}
+html.ph .list{grid-auto-flow:row;grid-template-rows:none!important;grid-auto-rows:var(--rh)}
+html.ph a.mod{padding:0 .35rem;gap:0}
+html.ph a.mod .nm{font-size:min(.95rem,3.4vw)}
+html.ph a.mod .ar{display:none}
+html.ph .ch h2{font-size:.72rem;letter-spacing:.02em}
+html.ph .ix{margin-right:.5rem}
+html.ph .hl{width:100%}
+html.ph .hl .dl{grid-column:1/-1}
+html.ph .gb{grid-template-columns:minmax(0,1fr);row-gap:.7rem}
+html.ph .gr{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:.4rem}
+html.ph .gk{display:flex;flex-direction:column;gap:0}
+html.ph .gk .pt{width:2.6rem;transform:rotate(90deg);margin:1.2rem 0}
+html.ph .gt{width:100%}
+html.ph .gr.gd{display:flex;padding-left:0}
+html.ph .git{grid-template-columns:minmax(0,1fr);row-gap:.15rem}
+html.ph .gt span,html.ph .gt small{white-space:normal}

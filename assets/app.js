@@ -1,3 +1,4 @@
+(function(){var d=document.documentElement;if(navigator.maxTouchPoints>0&&Math.min(screen.width,screen.height)<=500&&innerWidth>screen.width*1.2){d.classList.add('ph');d.style.fontSize=16*innerWidth/screen.width+'px'}})();
 function lockPad(on){var r=document.documentElement;if(on){var w=innerWidth-r.clientWidth;r.style.paddingRight=w>0?w+'px':''}else r.style.paddingRight=''}
 (function(){
 'use strict';
