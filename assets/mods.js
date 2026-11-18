@@ -1,6 +1,3 @@
-/* ================= ДАННЫЕ =================
-   [название, id на Nexus]. Моды внутри категории — по алфавиту (сортировка в app.js).
-   span — ширина карточки в колонках (из 4), rows — строк в колонке списка. */
 var CATS=[
  {t:['Обязательные фреймворки'],span:1,rows:11,mods:[
   ["ArchiveXL",4198],["Codeware",7780],["Cyber Engine Tweaks",107],["Mod Settings",4885],["Native Settings UI",3518],["RED4ext",2380],["redscript",1511],["TweakXL",4197],["Browser Extension",10038],["Native Interactions Framework",21422]
